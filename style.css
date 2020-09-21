@@ -1,0 +1,326 @@
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  background-size: cover !important;
+}
+html {
+   font-size: 16px;
+}
+body{/*BODY*/
+	 margin: 0 auto;
+	 
+}
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	display: block;
+	margin: 0 auto;
+}
+p {
+	font-size:25px;
+	text-align:left;
+	font-family: Times New Roman;
+}
+
+article {/*home page background*/
+   padding:1px 16px;
+   height:1000px;
+   background: url("images/doperetro.jpg");
+}
+
+/*FONT/TYPE STUFF p,h1,h2,h3*/
+p.homep{/*home page font style*/
+	font-size:18px;
+	text-align: center;
+	color:#DC1BBA;
+	padding:0.4em;
+}
+
+.hometitle{/*homepage title*/
+	color: #00E1EE;
+}
+
+.header {
+	text-align: center;
+	font-size:7.5em;
+}
+
+.subPageHeader {
+	color: #2D9D56;
+}
+
+ article.content {
+  padding-top:1px;
+  padding-bottom:300px;
+  padding-left:220px;
+  padding-right:16px;
+  height:100%;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align:center;
+  background-repeat: no-repeat;
+}
+
+.adventbkgd {/*home page background*/
+   background: url("images/stbk.jpg");
+}
+.rtsbkgd {/*home page background*/
+   background: url("images/rtsbackground.jpg");
+}
+.shooterbkgd {/*home page background*/
+   background: url("images/gamer.jpg");
+}
+.OPENW {/*home page background*/
+   background: url("images/GTA.jpg");
+}
+.sandbox {/*home page background*/
+   background: url("images/sandboxbk.jpg");
+}
+.esports {/*home page background*/
+   background: url("images/esportsbk.jpg");
+}
+.enter {/*home page background*/
+   background: url("images/doperetro.jpg")
+}
+
+h2{
+	font-family: "Impact";
+	font-size:4.5em;
+	color:#AF0A0A;
+}
+.hasBackground {
+	background-repeat: no-repeat;
+	margin-top: 5em;
+	padding: 1em 2rem;
+  background-size: cover;
+  background-position: right;
+}
+
+.divmassbg{
+	background:url(images/masseffects.jpg);
+}
+.fallout{
+	background:url(images/fallout4.jpg);
+}
+.watchdogs{
+	background:url(images/watchdogs2.jpg);
+}
+.supreme{
+	background:url(images/supcomd.jpg);
+}
+.starcraft{
+	background:url(images/starcraft.jpg);
+}
+.halowars2{
+	background:url(images/HaloWars.jpg);
+}
+.sidcv{
+	background:url(images/sidciv.jpg);
+}
+.AoE3{
+	background:url(images/AoEbk.jpg);
+}
+.comacon{
+	background:url(images/candc.jpg);
+}
+.xcom2{
+	background:url(images/xcom.jpg);
+}
+.compahero{
+	background:url(images/comohero.jpg);
+}
+.DOOM{
+	background:url(images/doom.jpg);
+}
+.QUAKE{
+	background:url(images/quake.jpg);
+}
+.FARCRY{
+	background:url(images/farcry.jpg);
+}
+.Battlefield{
+	background:url(images/battlefield4.jpg);
+}
+.starwars{
+	background:url(images/star.jpg);
+}
+.DeadACE{
+	background:url(images/deadspace.jpg);
+}
+.GR{
+	background:url(images/ghost.jpg);
+}
+.SoD2{
+	background:url(images/statd2.jpg);
+}
+.AoT{
+	background:url(images/comohero.jpg);
+}
+.AoT{
+	background:url(images/comohero.jpg);
+}
+.GTA{
+	background:url(images/GTAbk.jpg);
+}
+.NoManSky{
+	background:url(images/NMS2.jpg);
+}
+.borderlands{
+	background:url(images/borderlands.jpg);
+}
+.SpaceEngineers{
+	background:url(images/spacebk.jpg);
+}
+.KerbalSpaceProgams{
+	background:url(images/kerbalbk.jpg);
+}
+.MINECRAFT{
+	background:url(images/mine.jpg);
+}
+.RocketL{
+	background:url(images/rocketbk.jpg);
+}
+.CoD{
+	background:url(images/codbk.jpg);
+}
+.RB6{
+	background:url(images/rainbow6.jpg);
+}
+.MK{
+	background:url(images/mkbk.jpg);
+}
+.fmv{
+	background:#00F508;
+}
+
+iframe.massvid{
+	width: 26.25rem;
+}
+
+div.clearfix{
+	border:3px solid #4CAF50;
+	padding: 5px;
+	background-color:hsla(210, 9%, 55%,0.4);
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+iframe.massvid{
+	float:right;
+	width: 26.25rem;
+}
+
+iframe.massvid{
+	float:right;
+	width: 26.25rem;
+}
+
+/* Sitenav stuff */
+nav.navigation {
+   color: #34180f;
+   text-align: left;
+   display: block;
+}
+nav.navigation li {
+   font-size: 1.3em;
+   line-height: 1.4em;
+   display: block;
+}
+ul {
+    width: 220px;
+    background-color:hsla(210, 9%, 55%,0.4);
+    position: fixed;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: red; /*font color (hover)*/
+    padding: 9px 16px;
+    text-decoration: none;
+}
+li a.active,
+li a.active:hover {
+    background-color: blue !important;/*When selected*/
+    color: white;
+}
+
+li a:hover {/* when hovered*/
+    background-color: green;
+    color: lightblue;
+}
+.row{
+   display: table-row;
+}
+.row div{
+   display: table-cell;
+   padding: 0.25em 0.5em;
+}
+.category{
+   font-weight: bold;
+}
+.feedback {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 40rem;
+	margin: 0 auto;
+}
+
+form {
+	flex-basis: 100%;
+	user-select: none !important;
+}
+form input {
+	border: 1px solid black;
+}
+form button {
+	width: 100%;
+	background: #444;
+	color: white;
+	padding: 0.5rem 0;
+	border-radius: 0.5rem;
+}
+form button:active,
+form button:focus {
+	outline: 0;
+}
+
+
+/* print styles */
+@media print {
+   *{
+      color: rgb(0,0,0);
+      background-color: rgb(255,255,255);
+   }
+   body {
+      max-width: 100%;
+   }
+   h1 {
+      font-size: 2.6em;
+      padding: 0;
+   }
+   h2 {
+      font-size: 2.2em;
+	  
+   }
+   nav {
+      display: none;
+   }
+   article{
+      margin: 0.4em 0 0;
+   }
+}
+@media screen and (min-device-aspect-ratio: 16/9) {
+  article {
+    padding: 1rem 5vw;
+ }
+}
+@media (max-width: 767px) {
+	iframe.massvid{
+		width: 100%;
+	}
+}

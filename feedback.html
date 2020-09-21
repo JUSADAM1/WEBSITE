@@ -1,0 +1,57 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<script>
+			window.onload = () => {
+				document.getElementById('myForm')
+					.addEventListener("submit", (e) => {
+						e.preventDefault();
+						const email = document.getElementById('emailAddress').value;
+						const recommendOptions = [...document.getElementsByName('recommend')];
+						let recommend = '';
+						recommendOptions.forEach(el => {
+							if (el.checked) {
+								recommend = el.value;
+							}
+						})
+						console.log(email, recommend);
+					});
+			}
+		</script>
+	</head>
+	<body>
+		<header style="background-color: black">
+			<h1><a href="Home.html"><img src="images/pacmantopback.jpg" width="1091" height="299" alt=" logo/title"></a></h1>
+        </header>
+       <nav class="navigation">
+			<ul>
+				<li><a href="Home.html">Home</a></li>
+				<li><a href="Adventurestorys.html">Adventure &#38; Storys</a></li>
+				<li><a href="RTS.html">RTS</a></li>
+				<li><a href="shooters.html">Shooters</a></li>
+				<li><a href="openworld.html">Open World</a></li>
+				<li><a href="sandbox.html">Sandbox</a></li>
+				<li><a href="esports.html">ESports</a></li>
+				<li><a href="Entertainment.html">Entertainment</a></li>
+				<li><a class="active" href="feedback.html">Feedback</a></li>
+			</ul>	
+        </nav>
+		<div class="feedback">
+			<h1>Feedback</h1>
+			<form id="myForm">
+				<div>
+					<label for="emailAddress">Email Address</legend>
+					<input id="emailAddress" type="email" name="email" required/>
+				</div>
+				<div>
+					<label>Would you recommend this site to someone else?</legend>
+					<input id="recommend-yes" type="radio" name="recommend" value="yes" required/>
+					<label for="recommend-yes">Yes</label>
+					<input id="recommend-no" type="radio" name="recommend" value="no" required/>
+					<label for="recommend-no">No</label>
+				</div>
+				<button>Submit</button>
+			</form>
+		</div>
+	</body>
+</html>
